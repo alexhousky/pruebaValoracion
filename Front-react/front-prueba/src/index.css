@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::selection {
+  background-color: #555;
+  color: #f5f5f5;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #1a1a1a, #2c2c2c);
+}
+
+.form {
+  width: 400px;
+  background-image: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.title {
+  color: #f5deb3; /* wheat */
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.input {
+  margin: 0.5rem 0;
+  padding: 0.8rem 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  color: #f5deb3;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #f5deb3;
+  transition: all 300ms ease;
+  font-size: 1rem;
+}
+.input:hover,
+.input:focus {
+  background-color: #2e2e2e;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid #ffe4c4; /* bisque */
+}
+
+.btn {
+  height: 3rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  background-color: #f5deb3;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 300ms ease;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ffe4c4;
+}
+.btn:hover {
+  background-color: #ffe4c4;
+  color: #1a1a1a;
+  box-shadow: 0 0 5px #f5deb3;
+}
